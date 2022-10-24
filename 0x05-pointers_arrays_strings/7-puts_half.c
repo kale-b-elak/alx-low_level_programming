@@ -7,6 +7,7 @@
 void puts_half(char *str)
 {
 	int len = _strlen(str);
+
 	if (len % 2 == 0)
 		len = len / 2;
 	else
@@ -27,6 +28,7 @@ void puts_half(char *str)
 int _strlen(char *s)
 {
 	int count, inc;
+
 	inc = 0;
 	for (count = 0; s[count] != '\0'; count++)
 		inc++;
